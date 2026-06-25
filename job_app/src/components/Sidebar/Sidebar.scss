@@ -1,0 +1,33 @@
+.sidebar {
+  background: #ffffff;
+  border-right: 1px solid #e5e7eb;
+  min-height: calc(100vh - 72px);
+  padding: 32px;
+  width: 260px;
+
+  h2 {
+    font-size: 1rem;
+    margin: 0 0 16px;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    background: #f9fafb;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    padding: 8px 10px;
+  }
+
+  p {
+    color: #6b7280;
+    margin: 0;
+  }
+}

@@ -1,0 +1,29 @@
+.header {
+  align-items: center;
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+  display: flex;
+  gap: 24px;
+  min-height: 72px;
+  padding: 0 32px;
+}
+
+.header__nav {
+  display: flex;
+  flex: 1;
+  gap: 12px;
+
+  a {
+    border-radius: 6px;
+    color: #4b5563;
+    font-weight: 600;
+    padding: 8px 12px;
+    text-decoration: none;
+  }
+
+  a.active,
+  a:hover {
+    background: #fff1f2;
+    color: #b91c1c;
+  }
+}

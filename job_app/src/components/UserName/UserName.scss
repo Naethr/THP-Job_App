@@ -1,0 +1,12 @@
+.user-name {
+  color: #111827;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.3;
+  text-align: right;
+
+  span {
+    color: #6b7280;
+    font-size: 0.85rem;
+  }
+}
